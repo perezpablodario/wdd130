@@ -110,7 +110,9 @@ article {
     background-color: rgba(199, 216, 216, 0.5);
     width: 95%;
     padding: 0;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero article img {
