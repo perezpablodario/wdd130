@@ -121,7 +121,7 @@ article {
 
 .section-history {
     background-color: var(--accent2-color);
-    padding: 10;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 100px;
@@ -160,7 +160,7 @@ article {
     background-color: var(--accent2-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 1f;
+    grid-template-rows: 50px 1fr;
     place-items: center;
     grid-gap: 5px;
 }
@@ -220,7 +220,7 @@ article {
 footer {
     background-color: var(--accent2-color);
     display: grid;
-    grid-template-columns: 600px 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     justify-items: center;
     border-bottom: 1px solid black;
