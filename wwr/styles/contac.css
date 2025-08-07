@@ -1,0 +1,253 @@
+:root {
+    --primary-color: #cdfcf2;
+    /* aquamarine */
+    --secondary-color: #4BC84B;
+    /* lime green */
+    --accent1-color: #8F4300;
+    /* brown */
+    --accent2-color: #BEDCFE;
+    /* Uranian blue */
+    --headinf-font: "PT Serif", sans-serif;
+    --body-font: "PT Serif", sans-serif;
+}
+
+header {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+}
+
+header img {
+    justify-self: center;
+}
+
+.grid-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.grid-nav a {
+    padding: 30px;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font) Arial, serif;
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--headinf-font);
+    color: var(--accent1-color);
+}
+
+nav,
+p,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia{
+    padding: 10px;
+    justify-content: end;
+    height: auto;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.div-contact-map iframe{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(11, 11, 11, 0.3);
+}
+
+.main-contact{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    
+}
+
+.main-contact .hero{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.div-contact-map{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5px 0 5px;
+    background: var(--accent2-color);
+    justify-items: center;
+}
+
+.form{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 5px 0 5px 5px;
+    background: var(--accent2-color);
+    font-size: 1.1em;
+    width: auto;
+    justify-items: center;
+}
+
+.form h2{
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto auto;
+    margin-top: 5px;
+    background: var(--accent2-color);
+    justify-items: center;
+}
+
+.hero h2{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero1{
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.hero .hero2{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.hero .hero3{
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.hero1 figcaption{
+    padding: 10px;
+}
+
+.hero2 figcaption{
+    padding: 10px;
+}
+
+.hero3 figcaption{
+    padding: 10px;
+}
+.hero img {
+    width: 150px;
+    height: auto;
+    outline: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(11, 11, 11, 0.5);
+}
+
+h2 {
+    top: 20px;
+    width: 600px;
+    padding: 16px;
+    text-align: center;
+    color: var(--accent1-color);
+    -webkit-text-stroke: 1px;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 /0.2);
+    padding: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 380px;
+}
+
+button:hover{
+    background-color: rgb(40, 17, 193);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.label-feedback{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid black;
+}
