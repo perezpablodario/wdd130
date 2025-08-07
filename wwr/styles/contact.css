@@ -121,7 +121,7 @@ article {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: auto auto;
+    grid-row: auto;
     margin-top: 5px;
     background: var(--accent2-color);
     justify-items: center;
