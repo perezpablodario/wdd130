@@ -11,18 +11,22 @@
     --body-font: "PT Serif", sans-serif;
 }
 
+/* Rafting page */
+
+/* Header section */
+
 header {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
-
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid black;
 }
 
 header img {
     justify-self: center;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
 }
 
 .grid-nav {
@@ -37,6 +41,8 @@ header img {
     padding: 30px;
     text-decoration: none;
 }
+
+/* General Declarations */
 
 * {
     margin: 0;
@@ -98,7 +104,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
     /* white text - make sure there is enough contrast with the background-color */
@@ -106,18 +112,23 @@ h1 {
 
 article {
     position: absolute;
-    top: 150px;
-    background-color: rgba(199, 216, 216, 0.5);
+    top: 120px;
+    background-color: rgba(216, 104, 52, 0.5);
     width: 95%;
     padding: 0;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    color: rgb(253, 253, 253);
+    text-shadow: 1px 1px 3px rgb(253, 252, 252);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+article h2{
+    color: white;
+    padding-left: 15px;
 }
 
 .hero article img {
-    width: 125px;
-    float: right;
+    width: 130px;
+    float:right;
     border: 2px solid rgb(88, 85, 85);
 }
 
@@ -133,6 +144,10 @@ article {
     grid-column: 2/3;
     align-self: center;
     justify-self: center;
+}
+
+.section-history img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .history-p1 {
@@ -158,65 +173,37 @@ article {
     justify-self: center;
 }
 
-.adventure-images {
+.adventure {
     background-color: var(--accent2-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr;
-    place-items: center;
-    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    place-items: center
 }
 
-.adventure-images h2 {
-    grid-column: 1/6;
-    grid-row: 1/1;
-    align-self: center;
-    justify-self: center;
-}
-
-.images1 {
+.adventure h2 {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
     align-self: center;
     justify-self: center;
-    width: 150px;
-    color: black;
 }
 
-.images2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    align-self: center;
-    justify-self: center;
-    width: 150px;
-    color: black;
+.adventure-images{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
 }
 
-.images3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    align-self: center;
-    justify-self: center;
-    width: 150px;
-    color: black;
+.adventure-images img, figcaption{
+    width: 140px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
 }
 
-.images4 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    align-self: center;
-    justify-self: center;
-    width: 150px;
-    color: black;
-}
-
-.images5 {
-    grid-column: 5/6;
-    grid-row: 2/3;
-    align-self: center;
-    justify-self: center;
-    width: 150px;
-    color: black;
+.adventure-images img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 footer {
@@ -227,3 +214,6 @@ footer {
     justify-items: center;
     border-bottom: 1px solid black;
 }
+
+/* Home Page */
+
