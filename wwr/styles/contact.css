@@ -89,7 +89,7 @@ article {
     
 }
 
-.main-contact .hero{
+.main-contact .hero-contact{
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -118,7 +118,7 @@ article {
     align-items: center;
 }
 
-.hero {
+.hero-contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: auto;
@@ -127,7 +127,7 @@ article {
     justify-items: center;
 }
 
-.hero h1{
+.hero-contact h1{
     padding-bottom: 10px;
     grid-column: 1/4;
     grid-row: 1/2;
@@ -136,17 +136,17 @@ article {
     -webkit-text-stroke: 1px;
 }
 
-.hero .hero1{
+.hero-contact .hero1{
     grid-column: 1/2;
     text-align: center;
 }
 
-.hero .hero2{
+.hero-contact .hero2{
     grid-column: 2/3;
     text-align: center;
 }
 
-.hero .hero3{
+.hero-contact .hero3{
     grid-column: 3/4;
     text-align: center;
 }
@@ -162,14 +162,14 @@ article {
 .hero3 figcaption{
     padding: 10px;
 }
-.hero img {
+.hero-contact img {
     width: 150px;
     height: auto;
     outline: 1px solid black;
     box-shadow: 5px 5px 5px rgba(11, 11, 11, 0.5);
 }
 
-h2 {
+.div-contact-map h2, .form h2 {
     top: 20px;
     width: 600px;
     padding: 16px;
@@ -220,7 +220,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(40, 17, 193);
+    background-color: blue;
 }
 
 .form-item {
